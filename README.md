@@ -37,9 +37,20 @@ Please reach out to nanna7077@gmail.com for any queries or help with running the
 
 ## Screenshots
 
-![](screenshots/create_flight.jpg)
-![](screenshots/flights.jpg)
-![](screenshots/login.jpg)
-![](screenshots/register.jpg)
-![](screenshots/search_flight.jpg)
-![](screenshots/view_bookings.jpg)
+Create Flight
+![Create Flight](screenshots/create_flight.jpg)
+
+Show Flights
+![Show Flights](screenshots/flights.jpg)
+
+Login
+![Login](screenshots/login.jpg)
+
+Register
+![Register](screenshots/register.jpg)
+
+Search Flight
+![Search Flight](screenshots/search_flight.jpg)
+
+View Bookings
+![View Bookings](screenshots/view_bookings.jpg)
