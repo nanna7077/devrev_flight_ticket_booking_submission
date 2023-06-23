@@ -32,3 +32,14 @@ python -m http.server
 ---
 
 Please reach out to nanna7077@gmail.com for any queries or help with running the application.
+
+---
+
+## Screenshots
+
+![](screenshots/create_flight.jpg)
+![](screenshots/flights.jpg)
+![](screenshots/login.jpg)
+![](screenshots/register.jpg)
+![](screenshots/search_flight.jpg)
+![](screenshots/view_bookings.jpg)
