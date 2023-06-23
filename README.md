@@ -1,5 +1,12 @@
 # Flight Ticket Booking System
 
+ℹ️ To convert a user to admin, you can directly change their utype to 1 in the users table in the database. Or, alternatively, please use the following credentials to login as an admin:
+```
+email: nanna7077@gmail.com
+password: nannan
+```
+You can create a regular user account via the UI itself.
+
 ## To run the backend
 
 1. Change directory to backend
