@@ -1,0 +1,23 @@
+html {
+    /* background: rgba(218, 133, 255, 0.288); */
+    background: rgb(229, 238, 247);
+}
+
+.is-primary {
+    background-color: none;
+    background: none;
+    background-color: #dd97fc !important;
+}
+
+.is-primary:hover {
+    background-color: none;
+    background: none;
+    background-color: #d57dfa !important;
+}
+
+.navbar, .button, .box, .input, .card{
+    background: none;
+    background-color: none;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+}

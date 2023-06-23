@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="/static/styles/main.css">
+    <title>Flight Booking System</title>
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation" id="navbar"></nav>  
+    
+    <br>
+    <div style="font-size: 1.5rem; margin-left: 10px;">View Bookings</div>
+    <br>
+
+    <div style="display: flex; gap: 20px; margin-left: 20px; align-items: center;">
+        Flight Number: <select class="input" style="width: 13%;" id = "flightnumber">
+        </select>
+        Departure Time: <select class="input" style="width: 13%;" id = "depaturetime">
+            <option default disabled>Select depaturetime</option>
+        </select>
+    </div>
+
+    <div style="padding: 20px;">
+        <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth" id="flights">
+            <thead>
+              <tr>
+                <th>Passenger Name</th>
+                <th>Verifiable Type</th>
+                <th>Verifiable ID</th>
+                <th>Seat No</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+          </table>
+    </div>
+    
+</body>
+
+<script src="/static/scripts/common.js"></script>
+<script src="/static/scripts/viewBookings.js"></script>
+
+</html>

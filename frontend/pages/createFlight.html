@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="/static/styles/main.css">
+    <title>Flight Booking System</title>
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation" id="navbar">
+    </nav>  
+
+    <div id="createFlightForm" class="container" style="margin-top: 6vh;">
+        <div class="box" id="createFlightForm">
+            <div class="field">
+                <label class="label">Flight No</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Flight no" name="flightno" id="flightno">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Airline</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Airline" name="airline" id="airline">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Source</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Source" name="source" id="source">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Destination</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Destination" name="destination" id="destination">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Departure time</label>
+                <div class="control">
+                    <input class="input" type="datetime-local" placeholder="Departure time" name="departuretime" id="departuretime">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Arrival time</label>
+                <div class="control">
+                    <input class="input" type="datetime-local" placeholder="Arrival time" name="arrivaltime" id="arrivaltime">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Price</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Price" name="price" id="price">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Seats</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Seats" name="seats" id="seats" value="60">
+                </div>
+            </div>
+            <br>
+            <button class="is-primary button" id="createFlightButton" style="width: 100%;">Create Flight</button>
+        </div>
+    </div>
+    
+</body>
+
+<script src="/static/scripts/common.js"></script>
+<script src="/static/scripts/createFlight.js"></script>
+
+</html>

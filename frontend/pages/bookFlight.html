@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="/static/styles/main.css">
+    <title>Flight Booking System</title>
+</head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation" id="navbar">
+    </nav>
+
+    <div class="container" style="margin-top: 10vh;">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="content">
+                            <h1 class="title">Book Flight</h1>
+                            <div style = "font-weight: bold;">Flight Details</div>
+                            <br>
+                            <div style="display: flex; gap: 15px; flex-wrap: wrap;" id = "flightdetails">
+                            </div>
+                            <br>
+                            <div id="bookFlightForm">
+                                <div class="field">
+                                    <label class="label">Passenger Name</label>
+                                    <div class="control">
+                                        <input class="input" type="text" placeholder="Passenger Name" id="passengerName">
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <label class="label">Passenger Verification Type</label>
+                                    <div class="control">
+                                        <div class="select">
+                                            <select id="passengerVerificationType" >
+                                                <option value="passport">Passport</option>
+                                                <option value="national_id">National ID</option>
+                                                <option value="driving_license">Driving License</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <label class="label">Passenger Verification Number</label>
+                                    <div class="control">
+                                        <input class="input" type="text" placeholder="Passenger Verification Number" id="passengerVerificationNumber">
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <label class="label">Seat Number</label>
+                                    <div class="control">
+                                        <input class="input" type="text" placeholder="Seat Number" id="seatNumber">
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <div class="control">
+                                        <button class="button is-primary" style="width: 100%;" id="bookFlightButton">Book Flight</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="bookFlightMessage"></div>
+                        </div>
+                    </div>
+        </div>
+    
+</body>
+
+<script>
+
+</script>
+
+<script src="/static/scripts/common.js"></script>
+<script src="/static/scripts/bookFlight.js"></script>
+
+</html>
