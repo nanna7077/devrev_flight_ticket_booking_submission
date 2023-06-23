@@ -73,7 +73,13 @@ def viewTicketsByFlight(flightID):
     # ).filter(
     #     models.Ticket.flight_id == models.Flight.flight_no
     # ).all()
-    tickets = models.Ticket.query.filter_by().all()
+
+    # ToFix: departureTime is not working
+
+    if requestUser.utype == common.USER_TYPE_ADMIN:
+        tickets = models.Ticket.query.filter_by().all()
+    else:
+        tickets = models.Ticket.query.filter_by(user_id=requestUser.id).all()
     if not tickets:
         return {"error": "No tickets found"}, 404
 

@@ -52,7 +52,7 @@ if (! window.localStorage.getItem('token')) {
             <a class="button is-primary" onclick = 'window.location.href = "/pages/viewFlights.html";'>
                 Search Flights
             </a>
-            <a class="button is-light">
+            <a class="button is-light" onclick = 'window.location.href = "/pages/viewBookings.html";'>
                 My Bookings
             </a>
             `;
