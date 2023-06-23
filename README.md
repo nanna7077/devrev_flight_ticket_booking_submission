@@ -20,7 +20,7 @@ python app.py
 ```
 4. The server will be running on http://localhost:5000/
 
-### To run the frontend
+## To run the frontend
 
 1. Change directory to frontend
 2. Run the server using
@@ -28,3 +28,7 @@ python app.py
 python -m http.server
 ```
 3. The server will be running on http://localhost:8000/
+
+---
+
+Please reach out to nanna7077@gmail.com for any queries or help with running the application.
